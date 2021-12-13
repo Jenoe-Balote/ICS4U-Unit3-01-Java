@@ -35,6 +35,5 @@ public class MrCoxallStack {
             System.out.println(element);
         }
 
-        System.out.println();
     }
 }

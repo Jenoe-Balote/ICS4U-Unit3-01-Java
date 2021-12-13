@@ -29,11 +29,15 @@ final class Main {
      *
      * */
     public static void main(final String[] args) {
-        final int number1 = 123;
+        final int number1 = 11;
+        final int number2 = 22;
         final MrCoxallStack aStack = new MrCoxallStack();
 
         aStack.push(number1);
+        aStack.push(number2);
         aStack.showStack();
+
+        System.out.println("\nDone.");
     }
 }
 
